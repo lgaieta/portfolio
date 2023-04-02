@@ -1,3 +1,7 @@
+export const metadata = {
+    title: 'Inicio - Luciano Aieta',
+};
+
 export default function Home() {
     return (
         <main className='flex flex-col justify-center bg-slate-200 text-slate-900 items-center h-[100dvh] h-screen px-6'>

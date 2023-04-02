@@ -1,5 +1,9 @@
 import './globals.css';
-import { Inter } from "next/font/google";
+import { Inter } from 'next/font/google';
+
+export const metadata = {
+    title: { template: '%s - Luciano Aieta' },
+};
 
 const inter = Inter({ subsets: ['latin'] });
 
